@@ -8,7 +8,7 @@ add  [e-mail]  varchar
   --原始
       stu_id	stu_name	dep_code
 1      S001 	    一心	   D001
-2     S002 	    二聖	   D001
+2      S002 	    二聖	   D001
 3      S003 	    三多	   D002
 4      S004 	    四維	   D002
 
