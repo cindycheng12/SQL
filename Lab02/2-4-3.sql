@@ -1,2 +1,2 @@
 DELETE FROM Student
-WHERE stu_name='§≠∫÷'
+WHERE stu_name='‰∫îÁ¶è'
