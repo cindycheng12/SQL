@@ -1,3 +1,13 @@
-SELECT TOP (1000) [Comp_dep_code]
-      ,[Comp_dep_name]
-  FROM [MySchoolDB].[dbo].[Comp_dep]
+Insert Into Comp_dep
+VALUES('D003','研發部')
+
+
+-------------------------
+假設現在公司想再增設「研發部」，其「Em_code」為D003，
+但是今年卻沒有新進員工來應徵此部門，請問此時DBMS會產生問題嗎? 為什麼?
+      
+Ans:
+不會有任何的錯誤訊息。
+因「子關聯表」的部碼(外鍵)可以參考到「父關聯」的部碼(主鍵)。
+
+
