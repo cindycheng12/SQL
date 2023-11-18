@@ -1,4 +1,4 @@
-create table Employee3
+create table Employee
 (
 Em_id CHAR(5),
 Em_name NVARCHAR(10) NOT NULL,
