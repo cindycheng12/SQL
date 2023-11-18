@@ -1,0 +1,11 @@
+CREATE TABLE sales
+(
+Em_id CHAR(5),
+P_id CHAR(5),
+¼Æ¶q int NOT NULL,
+PRIMARY KEY(Em_id,P_id),
+FOREIGN KEY(Em_id) REFERENCES Employee3(Em_id)
+ON UPDATE CASCADE
+ON DELETE CASCADE,
+FOREIGN KEY(P_id) REFERENCES Product(P_id)
+)
