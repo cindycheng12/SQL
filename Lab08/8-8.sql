@@ -1,5 +1,5 @@
 (1)
-SELECT S_id, P_id,Quan AS ¾P°â¼Æ¶q±Æ§Ç
+SELECT S_id, P_id,Quan AS 銷售數量排序
 FROM [ch08].[dbo].[Sales]
 ORDER BY Quan Asc
 
