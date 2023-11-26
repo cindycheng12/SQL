@@ -1,4 +1,11 @@
-SELECT	S_id,Count(*) AS ¾P°â²£«~ºØÃþ
+(1)
+SELECT	S_id,AVG(Quan) AS å¹³å‡æ•¸é‡
+FROM [ch08].[dbo].[Sales]
+GROUP BY S_id
+HAVING AVG(Quan)>=70
+
+(2)
+SELECT	S_id,Count(*) AS éŠ·å”®ç”¢å“ç¨®é¡ž
 FROM [ch08].[dbo].[Sales]
 GROUP BY S_id
 HAVING Count(*)>=2
