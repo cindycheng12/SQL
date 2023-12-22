@@ -1,18 +1,6 @@
-Insert Into Course_select
-Values
-('S0001','C005','73'),
-('S0002','C005','60'),
-('S0003','C005','70'),
-('S0004','C005','66'),
-('S0005','C005','88')
-
-Insert Into Course
-Values
-('C005','å…¬æ°‘')
-
 use ch10
 go
-CREATE VIEW DBå‰ä¸‰åæˆç¸¾å–® AS
+CREATE VIEW DB«e¤T¦W¦¨ÁZ³æ AS
 SELECT TOP 3 stu_name,C_name,Grade
 FROM Student AS A,Course_select AS B,Course AS C
 WHERE  A.stu_id=B.Stu_id
